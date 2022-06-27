@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="24.855411">
+<testcase classname="Login" name="user tries invalid login" time="8.570321">
+<system-out><![CDATA[Given user is on homepage...................................................passed
+When user provides invalid credentials "abcde" "pass12".....................passed
+And user clicks on login button.............................................passed
+Then validation messege appears.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="user tries invalid login 2" time="6.85085">
+<system-out><![CDATA[Given user is on homepage...................................................passed
+When user provides invalid credentials "abcfe" "pass123"....................passed
+And user clicks on login button.............................................passed
+Then validation messege appears.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="user tries valid login" time="9.43424">
+<system-out><![CDATA[Given user is on homepage...................................................passed
+When user provides valid credentials "new0" "pass123".......................passed
+And user clicks on login button.............................................passed
+Then user navigates to profile "New Learner" homepage.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
